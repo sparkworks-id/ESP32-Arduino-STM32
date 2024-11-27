@@ -15,7 +15,6 @@ If the HTTP Get Request process runs successfully, the serial monitor output is 
 
 ![](https://sparkworks.id/repo/tutorial/quectel/ec600kcn/ec600kcn-http-serialMonitor-watermark.gif)
 
-
 You can also change the server host, port, and requestTarget data according to the server address you have.
 
 ```
