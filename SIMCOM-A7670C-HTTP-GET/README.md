@@ -13,8 +13,7 @@ This file contains a sketch about the demo of using the SIMCOM A7670C 4G LTE mod
 
 If the HTTP Get Request process runs successfully, the serial monitor output is shown as below
 
-![](https://sparkworks.id/repo/tutorial/simcom/a7670c/a7670c-http-serialMonitor-watermark.gif)
-
+![](https://github.com/sparkworks-id/misc/blob/main/tutorial/simcom/a7670c/a7670c-http-serialMonitor-watermark.gif)
 
 You can also change the server host, port, and requestTarget data according to the server address you have.
 
