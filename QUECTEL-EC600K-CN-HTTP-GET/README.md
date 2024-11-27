@@ -1,6 +1,6 @@
 # HTTP GET Request Using QUECTEL EC600K-CN
 
-In this project, we will make HTTP Get Request with NO AUTHENTICATION using QUECTEL EC600K-CN 4G LTE modules.
+In this project, we will make HTTP Get Request using QUECTEL EC600K-CN 4G LTE modules.
 
 ## Description
 This file contains a sketch about the demo of using the Quectel EC600K 4G LTE module to perform the HTTP Get request process. The EC600K 4G LTE module is connected to the ESP32 via UART2/SERIAL2 (GPIO16, GPIO17).
