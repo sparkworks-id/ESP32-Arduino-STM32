@@ -9,7 +9,6 @@ This file contains a sketch about the demo of using the SIMCOM A7670C 4G LTE mod
 ## Instruction
 - Before uploading the sketch, you can change the APN according to the APN of your cellular provider.
 - Upload the sketch to the ESP32 to run the HTTP GET Request process to the demo server.
-- Upload the sketch to ESP32.
 - After the sketch has been successfully uploaded to the ESP32, then open the serial monitor. Type "HTTP" then press enter to perform the HTTP Get Request process.
 
 If the HTTP Get Request process runs successfully, the serial monitor output is shown as below
