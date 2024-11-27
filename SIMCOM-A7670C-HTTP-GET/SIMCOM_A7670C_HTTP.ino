@@ -65,12 +65,12 @@ String sendDataWaitResponse(String command, String waitString, const int timeout
     if (Serial2.available()) {
       response = Serial2.readString();
       if (response.indexOf(waitString) >= 0) {
-        Serial.println("Response: ");
-        Serial.println(response);
-        timeoutReach = false;
         if (!ln) {
           Serial.println();
         }
+        Serial.println("Response: ");
+        Serial.println(response);
+        timeoutReach = false;
         break;
       }
     }
