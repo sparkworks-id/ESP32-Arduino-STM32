@@ -1,9 +1,9 @@
 # HTTPS GET Request Using SIMCOM A7670C
 
-In this project, we will make HTTPS Get Request with NO AUTHENTICATION using SIMCOM A7670C 4G LTE modules.
+In this project, we will make HTTPS Get Request with NO AUTHENTICATION using SIMCOM A7670C 4G LTE modules. The request will be sent to the HTTPS server with an **RSA certificate**.
 
 ## Description
-This file contains a sketch about the demo of using the SIMCOM A7670C 4G LTE module to perform the HTTPS Get request process with NO AUTHENTICATION. The A7670C 4G LTE module is connected to the ESP32 via UART2/SERIAL2 (GPIO16, GPIO17).
+This file contains a sketch about the demo of using the SIMCOM A7670C 4G LTE module to perform the HTTPS Get request process with NO AUTHENTICATION. The request will be sent to the HTTPS server with an **RSA certificate**. The A7670C 4G LTE module is connected to the ESP32 via UART2/SERIAL2 (GPIO16, GPIO17).
 
 ## Instruction
 - Before uploading the sketch, you can change the APN according to the APN of your cellular provider.
