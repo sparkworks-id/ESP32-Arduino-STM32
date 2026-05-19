@@ -123,6 +123,9 @@ void loop() {
     // Check if LTE Module is connected to ESP32 properly
     moduleStateCheck();
 
+    // Enable Server Name Indication
+    sendDataWaitResponse("AT+CSSLCFG=\"enableSNI\", 0, 1", "OK", 5000, true);
+
     // Attach PDP
     sendDataWaitResponse("AT+CGATT=1", "OK", 5000, true);
     
